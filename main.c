@@ -102,11 +102,11 @@ void update_logic() {
     position[0] += velocity[0];
     position[1] += velocity[1];
 
-    if (position[0] > 1.5f || position[0] < -1.5f) {
+    if (position[0] > 1.8f || position[0] < -1.8f) {
         velocity[0] *= -1.0f;
     }
 
-    if (position[1] > 1.2f || position[1] < -1.2f) {
+    if (position[1] > 1.1f || position[1] < -1.1f) {
         velocity[1] *= -1.0f;
     }
 
