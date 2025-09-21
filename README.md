@@ -10,7 +10,7 @@ libx11-dev libgl-dev libglu1-mesa-dev gcc make git
 ```
 ### Cloning
 ```
-git clone --depth=1 https://github.com/GNUfault/GLXcube.git
+git clone --depth=1 https://github.com/GNUfault/GLXcube.git && cd GLXcube
 ```
 ### Compiling
 ```
