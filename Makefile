@@ -25,7 +25,7 @@ MTUNE   = $(MARCH)
 # Optimization
 OPT     = fast
 # Compiler flags
-FLAGS   = -D_DEFAULT_SOURCE
+FLAGS   = -static -D_DEFAULT_SOURCE
 CFLAGS  = -march=$(MARCH) -mtune=$(MTUNE) -O$(OPT) $(FLAGS)
 # Linker flags
 LDFLAGS = -lX11 -lGL -lGLU -lm
